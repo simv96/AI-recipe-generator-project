@@ -37,7 +37,7 @@ form {
   text-align: center;
 }
 .container {
-  max-width: 75%;
+  max-width: 60%;
   background: rgba(255, 251, 175, 0.9);
   margin: 60px auto;
   border-radius: 10px;
@@ -45,21 +45,21 @@ form {
   box-shadow: rgba(107, 107, 121, 0.2) 0px 7px 29px 0px;
 }
 .inputbar {
-  width: 60%;
+  width: 40%;
   padding: 10px;
   line-height: 20px;
   font-size: 15px;
-  border-radius: 10px;
+  border-radius: 15px;
   margin: 10px;
-  border: 3px solid #42cfc4;
+  border: 3px solid #ff5656;
 }
 .submitButton {
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 15px;
   line-height: 20px;
   font-size: 15px;
   margin: 10px 0px;
-  background-color: #35a89e;
-  border: 3px solid #42cfc4;
+  background-color: #ff5656;
+  border: 1px solid #ff5656;
   color: #fff;
 }

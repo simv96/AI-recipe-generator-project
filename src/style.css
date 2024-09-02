@@ -2,7 +2,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/141/875/original/pexels-enginakyurt-1435895.jpg?1725286508);
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
 }
 
@@ -21,7 +21,7 @@ h2 {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #87fff5;
   font-weight: bold;
 }
 form {
@@ -33,13 +33,11 @@ form {
   padding-bottom: 10px;
   font-size: 14px;
   color: rgb(255, 251, 175);
-  background: rgba(255, 86, 86, 0.8);
   border-radius: 10px;
   text-align: center;
-  margin: 0px 400px;
 }
 .container {
-  max-width: 80%;
+  max-width: 75%;
   background: rgba(255, 251, 175, 0.9);
   margin: 60px auto;
   border-radius: 10px;

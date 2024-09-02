@@ -15,8 +15,8 @@ h1 {
   text-align: center;
 }
 h2 {
-  margin: 0 0 5px;
-  font-size: 27px;
+  font-size: 23px;
+  margin: 5px 0px;
 }
 
 a {
@@ -27,6 +27,7 @@ a {
 form {
   display: block;
   text-align: center;
+  margin: 5px 0px;
 }
 .footer {
   padding-top: 15px;
@@ -38,7 +39,7 @@ form {
 }
 .container {
   max-width: 60%;
-  background: rgba(255, 251, 175, 0.9);
+  background: rgba(255, 251, 175, 0.93);
   margin: 60px auto;
   border-radius: 10px;
   padding: 30px;
@@ -62,4 +63,10 @@ form {
   background-color: #ff5656;
   border: 1px solid #ff5656;
   color: #fff;
+}
+.recipe {
+  text-align: left;
+  padding: 20px;
+  color: #236a64;
+  font-size: 15px;
 }

@@ -39,9 +39,9 @@ form {
 }
 .container {
   max-width: 60%;
-  background: rgba(255, 251, 175, 0.93);
-  margin: 60px auto;
-  border-radius: 10px;
+  background: rgba(255, 251, 175, 0.9);
+  margin: 30px auto;
+  border-radius: 25px;
   padding: 30px;
   box-shadow: rgba(107, 107, 121, 0.2) 0px 7px 29px 0px;
 }
@@ -66,7 +66,7 @@ form {
 }
 .recipe {
   text-align: left;
-  padding: 20px;
+  padding: 25px;
   color: #236a64;
   font-size: 15px;
 }

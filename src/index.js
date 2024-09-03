@@ -38,6 +38,7 @@ function generateRecipe(event) {
 
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
   console.log(apiUrl);
+  console.log(prompt);
   axios.get(apiUrl).then(displayRecipe);
 }
 
